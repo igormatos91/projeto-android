@@ -4,7 +4,7 @@
 
 @font-face {
     font-family: 'idroid';
-    src: url('/html-css/Desafios/d010/fontes/idroid.otf') format('opentype');
+    src: url('../html-css/Desafios/d010/fontes/idroid.otf') format('opentype');
     font-weight: normal;
 }
 

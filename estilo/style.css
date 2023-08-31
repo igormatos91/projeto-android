@@ -99,7 +99,7 @@ main {
 
 main h1 {
     font-family: var(--fonte-alternativa);
-    font-weight: normal;
+    font-weight: bold;
     font-size: 1.8em;
     color: var(--cor5);
 }
@@ -108,7 +108,7 @@ main h2 {
     font-family: var(--fonte-alternativa);
     color: var(--cor4);
     font-size: 1.2em;
-    font-weight: normal;
+    font-weight: bolder;
     background-image: linear-gradient(to right, var(--cor1), transparent);
     text-indent: 8px;
 }

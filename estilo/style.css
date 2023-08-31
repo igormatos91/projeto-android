@@ -2,6 +2,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
 @font-face {
     font-family: 'idroid';
     src: url('C:\Users\igor_\OneDrive\Documentos\Estudos\projeto-android\fontes\idroid.otf') format('opentype');
@@ -19,6 +21,7 @@
 
     --fonte: Arial, Verdana, Helvetica, sans-serif;
     --fonte-destaque: 'Bebas Neue', cursive;
+    --fonte-alternativa: 'Roboto', cursive;
     --fonte-idroid: 'idroid', cursive;
 }
 
@@ -95,14 +98,14 @@ main {
 }
 
 main h1 {
-    font-family: var(--fonte-idroid);
+    font-family: var(--fonte-alternativa);
     font-weight: normal;
     font-size: 1.8em;
     color: var(--cor5);
 }
 
 main h2 {
-    font-family: var(--fonte-idroid);
+    font-family: var(--fonte-alternativa);
     color: var(--cor4);
     font-size: 1.2em;
     font-weight: normal;
